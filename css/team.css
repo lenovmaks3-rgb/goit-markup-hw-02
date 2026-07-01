@@ -1,0 +1,63 @@
+.team-section {
+  background-color: #F4F4FD; /* Светло-серый фон секции */
+  padding: 120px 0;          
+}
+
+/* Флекс-сетка для выстраивания карточек в один ряд */
+.team-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;                 /* Расстояние между карточками */
+  list-style: none;          /* Убираем точки списков */
+  padding: 0;
+  margin: 0;
+}
+
+/* Стилизация отдельной карточки сотрудника */
+.team-item {
+  width: 264px;              /* Точная ширина из Figma */
+  background-color: #FFFFFF; /* БЕЛЫЙ ФОН КАРТОЧКИ */
+  border-radius: 0px 0px 4px 4px; /* Скругление только нижних углов */
+  
+  /* Многослойные тени из Figma */
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
+              0px 1px 1px rgba(46, 47, 66, 0.16), 
+              0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+/* Жесткое выравнивание всех картинок внутри карточек команды */
+.team-item img {
+  width: 264px;       /* Растягиваем картинку ровно по ширине карточки */
+  height: 280px;      /* Задаем точную высоту из макета Figma */
+  object-fit: cover;  /* Аккуратно обрезает лишнее, сохраняя пропорции */
+  display: block;     /* Убирает системный зазор под картинкой */
+}
+
+/* Внутренние отступы для текстового блока под фотографией */
+.team-card-content {
+  padding: 32px 0;
+  text-align: center;        
+}
+
+/* Имя сотрудника */
+.team-name {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2E2F42;
+  margin-top: 0;
+  margin-bottom: 8px;        
+}
+
+/* Профессия/должность */
+.team-role {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  margin: 0;
+}

@@ -1,0 +1,55 @@
+.logo 
+{
+  color:#4D5AE5;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase; /* Делает все буквы заглавными */
+}
+.logo-span 
+{
+  color:#2E2F42;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase; /* Делает все буквы заглавными */
+}
+
+
+.nav-list {
+  list-style-type:none;
+} 
+.nav-list:active
+{
+  color:#404BBF;
+}
+.nav-link {
+  font-family: 'Roboto', sans-serif;
+  font-weight:700;
+  font-size:16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: #404BBF;
+}
+
+.contact-link {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-decoration: none;
+}
+.contact-link:hover,
+.contact-link:focus {
+  color: #404BBF;
+}
