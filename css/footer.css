@@ -9,7 +9,7 @@
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.17;
+  line-height: 1.33;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
@@ -17,7 +17,7 @@
 }
 
 /*слово "studio" в футере в светлый цвет */
-#footer .logo-span {
+.footer .logo-span {
   color: #F4F4FD;
 }
 
