@@ -6,7 +6,7 @@
 /* Заголовки преимуществ (Strategy, Punctuality и т.д.) */
 .features-subtitle {
   font-family: 'Roboto', sans-serif;
-  font-weight: 700;           /* По фидбеку: 700 вместо 500 */
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;           /* По фидбеку: безразмерный множитель вместо 24px */
   letter-spacing: 0.02em;
