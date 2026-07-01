@@ -22,7 +22,6 @@
   font-size: 16px;
   line-height: 1.5;           /* По фидбеку: безразмерный множитель вместо 24px */
   letter-spacing: 0.04em;
-  border: none;               /* Сброс рамки браузера */
   cursor: pointer;            /* По фидбеку: интерактивный курсор */
 }
 
