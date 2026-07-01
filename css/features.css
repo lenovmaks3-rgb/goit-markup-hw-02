@@ -1,14 +1,24 @@
-.features-item {
+
+.features-list {
+  list-style: none;
+}
+
+/* Заголовки преимуществ (Strategy, Punctuality и т.д.) */
+.features-subtitle {
   font-family: 'Roboto', sans-serif;
-  font-weight: 700;
+  font-weight: 700;           /* По фидбеку: 700 вместо 500 */
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;           /* По фидбеку: безразмерный множитель вместо 24px */
   letter-spacing: 0.02em;
   color: #2E2F42;
-
-  /* Отступ снизу от подзаголовка до текста описания (по макету обычно 8px) */
-  margin-bottom: 8px;
 }
-.features-list {
-  list-style-type:none;
+
+/* Текст описания преимуществ */
+.features-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;           /* По фидбеку: безразмерный множитель вместо 24px */
+  letter-spacing: 0.02em;
+  color: #434455;             /* По фидбеку: цвет #434455 вместо черного */
 }

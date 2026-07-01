@@ -1,64 +1,31 @@
-/* Настройки всей секции портфолио */
-.portfolio-section {
-  background-color: #FFFFFF;
-  padding: 120px 0;          /* Вертикальные отступы секции */
+/* Общий заголовок секции */
+.section-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2E2F42;
 }
 
-/* Сетка для карточек портфолио */
-.portfolio-list {
-  display: flex;
-  flex-wrap: wrap;           /* Разрешаем карточкам переноситься на новую строку */
-  justify-content: center;
-  column-gap: 24px;          /* Отступ между колонками */
-  row-gap: 48px;             /* Отступ между рядами по горизонтали */
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-/* Стилизация отдельной карточки проекта */
-.portfolio-item {
-  width: 360px;              /* Точная ширина карточки из Figma */
-  background-color: #FFFFFF; /* Белый фон */
-  
-  /* Нижняя рамка-обводка текстового блока*/
-  border: 1px solid #F4F4FD;
-  border-top: none;          /* Сверху над картинкой рамка не нужна */
-}
-
-/* Выравнивание картинок портфолио */
-.portfolio-item img {
-  width: 360px;
-  height: 300px;             /* Высота картинки, чтобы общая высота стала 420px */
-  object-fit: cover;         /* Защита от искажения пропорций изображений */
-  display: block;
-}
-
-/* Внутренние отступы для текста под картинкой */
-.portfolio-card-content {
-  padding: 32px 16px;        /* 32px сверху/снизу, 16px по бокам */
-  text-align: left;          /* Выравнивание текста по левому краю */
-}
-
-/* Название проекта (Header 3 / Roboto Medium) */
+/* Название проекта в карточке */
 .portfolio-name {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2E2F42;            /* Насыщенный Navy цвет */
-  margin-top: 0;
-  margin-bottom: 8px;        /* Отступ от названия до категории */
+  color: #2E2F42;
 }
 
-/* Категория проекта (Body Regular / Roboto Regular) */
+/* Категория проекта */
 .portfolio-type {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;            /* Цвет Slate */
-  margin: 0;
+  color: #434455;
 }

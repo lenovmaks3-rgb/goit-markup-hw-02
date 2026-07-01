@@ -1,6 +1,8 @@
 .hero {
-    background-color: #2E2F42;
+  background-color: #2E2F42;
 }
+
+/* Главный заголовок секции */
 .hero-title {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
@@ -9,30 +11,23 @@
   letter-spacing: 0.02em;
   text-align: center;
   color: #FFFFFF;
-  
-  /* Отступ снизу от заголовка до кнопки (по макету Figma обычно 48px) */
-  margin-bottom: 48px; 
-  max-width: 496px;
 }
+
+/* Базовые стили кнопки (только цвета и шрифты) */
 .order-btn {
-  /* Размеры и отступы */
-  min-width: 169px;         /* Ширина кнопки из Figma */
-  padding: 16px 32px;       /* Внутренние отступы: 16px сверху/снизу, 32px слева/справа */
-  
-  /* Цвет */
   background-color: #4D5AE5;
-  
-  /* Оформление */
-  border-radius: 4px;       /* Скругление углов кнопки (Radius) */
-}
-.order-btn:hover
-.order-btn:focus{
-  background-color: #404BBF
-}
-.order-text {
-  color: #ffffff;
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;           /* По фидбеку: безразмерный множитель вместо 24px */
   letter-spacing: 0.04em;
+  border: none;               /* Сброс рамки браузера */
+  cursor: pointer;            /* По фидбеку: интерактивный курсор */
+}
+
+/* Стили наведения и фокуса (По фидбеку: добавлена запятая и цвет #404bbf) */
+.order-btn:hover,
+.order-btn:focus {
+  background-color: #404BBF;
 }

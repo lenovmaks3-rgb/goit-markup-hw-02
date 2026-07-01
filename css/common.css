@@ -1,9 +1,22 @@
-.body
-{font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #000000;
-  background-color: #ffffff;}
+/* Базовые стили для всей страницы (обращаемся к тегу body без точки) */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;                /* Базовый цвет текста по фидбеку */
+  background-color: #FFFFFF;     /* Основной фон сайта */
+}
+
+/* Глобальный сброс для ВСЕХ списков на сайте по требованию ментора */
+ul {
+  list-style: none;              /* Отключаем маркеры списков повсюду */
+  margin: 0;
+  padding: 0;
+}
+
+/* Глобальный сброс заголовков и параграфов, чтобы не ломали структуру */
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
 p {
   font-family: 'Roboto', sans-serif;
   font-weight: 400; 
@@ -20,6 +33,4 @@ h2 {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2E2F42;
-  
-  margin-bottom: 72px; 
 }

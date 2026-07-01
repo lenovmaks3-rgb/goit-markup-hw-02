@@ -1,14 +1,10 @@
 /* Настройки всей секции футера (по вашему id) */
-#footer {
+.footer {
   background-color: #2E2F42; /* Темно-синий фон Navy Blue */
-  padding: 100px 0;          /* Вертикальные отступы сверху и снизу */
 }
 
 /* Оформление ссылки-логотипа в футере */
-#footer .logo {
-  display: inline-block;     /* Чтобы работал нижний отступ */
-  margin-bottom: 16px;       /* Отступ от логотипа до текста */
-  
+.footer .logo {
   /* Дублируем базовые стили логотипа, чтобы они не слетели */
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -35,5 +31,4 @@
   color: #F4F4FD;
   
   width: 264px;
-  margin: 0;
 }

@@ -1,54 +1,54 @@
-.logo 
-{
-  color:#4D5AE5;
+.nav-list,
+.contacts-list {
+  list-style: none;
+}
+
+.logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 1.17;           /* Безразмерный множитель вместо px */
   letter-spacing: 0.03em;
-  text-transform: uppercase; /* Делает все буквы заглавными */
-}
-.logo-span 
-{
-  color:#2E2F42;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase; /* Делает все буквы заглавными */
+  text-transform: uppercase;
+  text-decoration: none;       /* По фидбеку: убираем подчеркивание */
+  color: #4D5AE5;
 }
 
-
-.nav-list {
-  list-style-type:none;
-} 
-.nav-list:active
-{
-  color:#404BBF;
+/* Вторая часть логотипа */
+.logo-span {
+  color: #2E2F42;
 }
+
+/* Навигационные ссылки (Features, Team, Portfolio) */
 .nav-link {
   font-family: 'Roboto', sans-serif;
-  font-weight:700;
-  font-size:16px;
-  line-height: 24px;
+  font-weight: 500;            /* По фидбеку: 500 вместо 700 */
+  font-size: 16px;
+  line-height: 1.5;            /* Безразмерный множитель вместо 24px */
   letter-spacing: 0.02em;
-  text-decoration: none;
-}
-.nav-link:hover,
-.nav-link:focus {
-  color: #404BBF;
+  color: #2E2F42;              /* По фидбеку: явно задаем основной цвет */
+  text-decoration: none;       /* Убираем подчеркивание */
 }
 
+/* Сброс курсивного стиля для тега address */
+.contacts {
+  font-style: normal;          /* По фидбеку: убираем браузерный курсив */
+}
+
+/* Ссылки контактов (Почта и телефон) */
 .contact-link {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.5;            /* Безразмерный множитель вместо 24px */
   letter-spacing: 0.02em;
   color: #434455;
-  text-decoration: none;
+  text-decoration: none;       /* Убираем подчеркивание */
 }
+
+/* Интерактивные состояния ховера и фокуса */
+.nav-link:hover,
+.nav-link:focus,
 .contact-link:hover,
 .contact-link:focus {
   color: #404BBF;
